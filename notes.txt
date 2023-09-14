@@ -1,0 +1,19 @@
+locate local repository to remote on github
+
+then,
+npm init -y // to get all default options
+
+now run below command to get every thing you need with typescript,
+npm i --save-dev typescript
+
+npm --init    // get boiler plate tsconfig file
+ 
+
+now goto package.json file and edit ==> "script":{"start": "tsc --watch"}    to get 
+typescript code compile automatically 
+
+to change directory of js file you need to goto tsconfig.json file
+and find outDir and edit it acc. to your directory settings  ==> after doing this all your compiled
+js files goes to the directory which you have edited
+
+
